@@ -16,5 +16,7 @@ public class Player : MonoBehaviour
     private void Move()
     {
         Debug.Log("Player Speed 001" + speed);
+        
+        Debug.Log("Another log message");
     }
 }
