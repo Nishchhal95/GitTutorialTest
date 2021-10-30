@@ -6,6 +6,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float speed = 5;
+    public int id = 1;
 
     private void Start()
     {
