@@ -15,6 +15,6 @@ public class Player : MonoBehaviour
     //A function which moves the player
     private void Move()
     {
-        Debug.Log("Player Speed " + speed);
+        Debug.Log("Player Speed 001" + speed);
     }
 }
