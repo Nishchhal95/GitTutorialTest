@@ -40,6 +40,6 @@ public class Player : MonoBehaviour
     {
         Debug.Log("Player Speed 001" + speed);
         
-        Debug.Log("Another log message");
+        Debug.Log("Another log messagesadasdasdadasdasdasd");
     }
 }
