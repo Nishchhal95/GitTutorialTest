@@ -8,9 +8,25 @@ public class Player : MonoBehaviour
     public float speed = 5;
     public int id = 1;
 
+    [SerializeField] private Animator squareAnimator;
+
     private void Start()
     {
         Move();
+    }
+
+    private void Update()
+    {
+        HandleInput();
+    }
+
+    private void HandleInput()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Debug.Log("Let the square roll");
+            squareAnimator.SetTrigger("Roll");
+        }
     }
 
     //A function which moves the player
