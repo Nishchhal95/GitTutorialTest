@@ -27,6 +27,12 @@ public class Player : MonoBehaviour
             Debug.Log("Let the square roll");
             squareAnimator.SetTrigger("Roll");
         }
+        
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            Debug.Log("Let the square Shrink");
+            squareAnimator.SetTrigger("Shrink");
+        }
     }
 
     //A function which moves the player

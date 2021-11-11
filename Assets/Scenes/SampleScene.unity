@@ -304,6 +304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   id: 1
+  squareAnimator: {fileID: 1458285551}
 --- !u!95 &1458285551
 Animator:
   serializedVersion: 3
