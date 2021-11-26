@@ -54,7 +54,7 @@ public class Controller : MonoBehaviour
     {
         while (true)
         {
-            Debug.Log("Hello");
+            Debug.Log("Hello CustomUpdate");
             yield return new WaitForSeconds(gaptime);
         }
     }
